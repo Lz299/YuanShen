@@ -12,7 +12,6 @@ import java.sql.SQLException;
 public class UserDao {
     public int listAll(){
        int a=0;
-
         Connection conn = null;
         PreparedStatement pstm = null;
         ResultSet rs = null;
@@ -24,7 +23,6 @@ public class UserDao {
             rs=pstm.executeQuery();
             while (rs.next()){
             a=rs.getInt(1);
-
             }
         } catch (SQLException e) {
             e.printStackTrace();

@@ -1,17 +1,17 @@
 package com.xxxy.no2.yuanshen.model;
 
-public class vote_records {
+public class Vote_records {
     private int vote_records_id;
     private int polls_id;
     private int users_id;
 
-    public vote_records(int vote_records_id, int polls_id, int users_id) {
+    public Vote_records(int vote_records_id, int polls_id, int users_id) {
         this.vote_records_id = vote_records_id;
         this.polls_id = polls_id;
         this.users_id = users_id;
     }
 
-    public vote_records() {
+    public Vote_records() {
     }
 
     public int getVote_records_id() {
